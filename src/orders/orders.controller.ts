@@ -10,7 +10,7 @@ import {
   Patch
 } from '@nestjs/common';
 import { ClientProxy, RpcException } from '@nestjs/microservices';
-import { NATS_SERVICE, ORDER_SERVICE } from 'src/config';
+import { NATS_SERVICE } from 'src/config';
 import { firstValueFrom } from 'rxjs';
 import { 
   OrderPaginationDto,
